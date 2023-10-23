@@ -1,7 +1,7 @@
 //Check the no. is prime or not...
 let x = 13;
 for (let i=2; i<x-1; i++) {
-    if (x % i == 1) {                 //the condition should be ((x % i == 0))
+    if (x % i == 0) {                 //the condition should be ((x % i == 0))
         console.log("The number is not Prime number");
     }
 }
